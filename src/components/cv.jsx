@@ -146,7 +146,7 @@ export function CV() {
           </div>
         </section>
         <section
-          className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-transparent animate-fade-in-up"
+          className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-transparent animate-fade-in-up border-y "
           id="research">
           <div className="container px-4 md:px-6">
             <div className="space-y-20">
@@ -213,7 +213,7 @@ export function CV() {
           </div>
         </section>
         <section
-          className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up"
+          className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up border-y "
           id="experience">
           <div className="container px-4 md:px-6">
             <div className="space-y-20">
@@ -459,7 +459,7 @@ export function CV() {
         </section>
         
         <section
-          className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-transparent animate-fade-in-up"
+          className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-transparent animate-fade-in-up border-y "
           id="teaching">
           <div className="container px-4 md:px-6">
             <div className="space-y-20">
@@ -526,7 +526,7 @@ export function CV() {
 
 
         <section
-          className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up"
+          className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up border-y "
           id="awards-achievements">
           <div className="container px-4 md:px-6">
             <div className="space-y-20">
@@ -543,6 +543,9 @@ export function CV() {
         
         
       </main>
+      <footer className="p-8 rounded-lg flex justify-center text-xl uppercase">
+        Made by &nbsp; <Link href={"https://github.com/sh20raj"} target="_" className="bg-gradient-to-r from-blue-400 to-pink-500 bg-clip-text text-transparent"> SH20RAJ 🚀</Link>
+      </footer>
     </div>)
   );
 }
