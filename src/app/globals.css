@@ -131,3 +131,84 @@ html  , *{
 
 .slide-top{animation:slide-top 1s cubic-bezier(.25,.46,.45,.94) both}
 @keyframes slide-top{100%{transform:translateY(0)}0%{transform:translateY(-100px); opacity: 0;}}
+
+
+/* Basic CSS reset for table elements */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: 'Arial', sans-serif; /* Change as needed */
+  color: #ccc; /* Light grey for text */
+  background: #222; /* Dark background */
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #333; /* Darker line for separation */
+}
+
+th {
+  background-color: #007BFF; /* Bright blue for headers */
+  color: white;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #333;
+}
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: auto; /* Allows table to scroll horizontally on small devices */
+  }
+}
+
+/* Adding striping to rows */
+tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+/* Styling the table header to be fixed (optional) */
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Highlighting the first column for emphasis */
+td:first-child, th:first-child {
+  background-color: #333;
+  font-weight: bold;
+}
+
+/* Custom properties for dark theme colors */
+:root {
+  --primary-color: #007BFF; /* Bright blue, good for dark themes */
+  --text-color: #ccc; /* Light gray for text to stand out on dark bg */
+  --background-color: #222; /* Very dark gray, almost black */
+  --hover-color: #333; /* Slightly lighter gray for hover effects */
+  --zebra-color: #2a2a2a; /* Dark gray for zebra striping */
+}
+
+/* Applying custom properties */
+th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+tr:hover {
+  background-color: var(--hover-color);
+}
+
+tr:nth-child(even) {
+  background-color: var(--zebra-color);
+}

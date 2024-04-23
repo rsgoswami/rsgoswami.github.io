@@ -1,15 +1,6 @@
 'use client'
 import Link from "next/link"
 import Image from "next/image";
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "./ui/Table"
 
 export function CV() {
 
@@ -223,114 +214,114 @@ export function CV() {
               <div className="">
                 <h2 className=" text-4xl p-10">Academic experiences </h2>
 
-                <Table>
-                <TableBody>
-                    <TableRow>
-                        <TableCell>
+                <table>
+                <tbody>
+                    <tr>
+                        <td>
                             <p><strong>Sl No</strong></p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p><strong>Name of Organization</strong></p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p><strong>Type of Job</strong></p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p><strong>Post</strong></p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p><strong>Date of Joining</strong></p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p><strong>Date of Leaving</strong></p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p><strong>Total Experiences</strong></p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p><strong>Reason for leaving</strong></p>
-                        </TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>1.</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>National Institute of Technology, Arunachal Pradesh</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Full Time</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Asst. Professor</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>01.12.2011</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Continuing</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>9.2 Years</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>-</p>
-                        </TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>2.</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Bengal Institute of Technology & Management, Santiniketan</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Full Time</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Asst. Professor</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>21.09.2008</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>25.11.2012</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>4.1 Years</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Joined as an Asst. Professor NIT, Arunachal Pradesh</p>
-                        </TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>3.</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Jalpaiguri Govt. Engineering College</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Part-Time</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Lecturer</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>26.02.2006</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>30.06.2007</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>1.4 Years</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                             <p>Higher Study (M.Tech)</p>
-                        </TableCell>
-                    </TableRow>
-                </TableBody>
-                </Table>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
 
 
               </div>
@@ -338,114 +329,114 @@ export function CV() {
 
               <div>
                 <h2 className=" text-4xl py-20 pb-10 pl-10">Administrative experiences</h2>
-                  <Table align="left" cellSpacing={0}>
-                    <TableBody>
-                      <TableRow>
-                        <TableCell>
+                  <table align="left" cellSpacing={0}>
+                    <tbody>
+                      <tr>
+                        <td>
                           <p>Sl No</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Name of Organization</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Type of Job</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Post</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Date of Joining</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Date of Leaving</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Total Experiences</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Reason for leaving</p>
-                        </TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
                           <p>1.</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>National Institute of Technology, Arunachal Pradesh</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Full Time</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Asst. Professor</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>01.12.2011</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Continuing</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>9.2 Years</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>-</p>
-                        </TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
                           <p>2.</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Bengal Institute of Technology &amp; Management, Santiniketan</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Full Time</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Asst. Professor</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>21.09.2008</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>25.11.2012</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>4.1 Years</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Joined as an Asst. Professor NIT, Arunachal Pradesh</p>
-                        </TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
                           <p>3.</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Jalpaiguri Govt. Engineering College</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Part-Time</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Lecturer</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>26.02.2006</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>30.06.2007</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>1.4 Years</p>
-                        </TableCell>
-                        <TableCell>
+                        </td>
+                        <td>
                           <p>Higher Study (M.Tech)</p>
-                        </TableCell>
-                      </TableRow>
-                    </TableBody>
-                  </Table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
 
               </div>
 
@@ -550,20 +541,3 @@ export function CV() {
   );
 }
 
-function MountainIcon(props) {
-  return (
-    (<svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round">
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>)
-  );
-}
