@@ -200,10 +200,7 @@ th {
   color: white;
 }
 
-body {
-  color: var(--text-color);
-  background-color: var(--background-color);
-}
+
 
 tr:hover {
   background-color: var(--hover-color);
