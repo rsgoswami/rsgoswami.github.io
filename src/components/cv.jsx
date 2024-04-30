@@ -13,7 +13,7 @@ export function CV() {
   }
   return (
     (<div className="flex flex-col min-h-[100dvh]">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
+      <header className="px-4 lg:px-6 h-14 flex items-center sticky top-0 shadow-lg z-40 backdrop-blur-md">
         <Link className="flex items-center justify-center" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
@@ -56,7 +56,7 @@ export function CV() {
               className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 line-clamp-6">
               <div className="  leading-loose">
                 <h1
-                  className="slide-top lg:leading-tighter mb-10 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] bg-gradient-to-r from-rose-300 via-violet-600 to-violet-500 bg-clip-text text-transparent">
+                  className="slide-topx lg:leading-tighter mb-10 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] bg-gradient-to-r from-rose-300 via-violet-600 to-violet-500 bg-clip-text text-transparent">
                   Dr. Rajat Subhra Goswami
                 </h1>
                 <div className="text-gray-500 dark:text-gray-400 mt-2">
@@ -66,7 +66,7 @@ export function CV() {
                   <b className="">Research Areas:</b> Information Security, Cryptography, Blockchain Technology, Deep Learning, Machine
                   Learning, Quantum Computing, Image Processing, Big Data, Network Traffic Classification 
 
-                <a className=" text-blue-500 opacity-35 hover:opacity-100" href="https://www.nitap.ac.in/department/faculty_profile?name=rajat&dept=1dbf504017" target="_"> Website </a>
+                <a className=" text-blue-500 hover:animate-none opacity-h35 hover:opacity-100 animate-pulse " href="https://www.nitap.ac.in/department/faculty_profile?name=rajat&dept=1dbf504017" target="_"> Website </a>
                 </div>
                 <div className="flex space-x-4 mt-20">
                   
@@ -121,7 +121,7 @@ export function CV() {
               </div>
               <Image
                 alt="Professor"
-                className=" slide-top mx-auto rounded-full aspect-video overflow-hidden  object-bottom sm:w-full lg:order-last lg:aspect-square animate-fade-in-up"
+                className=" slide-topx mx-auto rounded-full aspect-video overflow-hidden  object-bottom sm:w-full lg:order-last lg:aspect-square animate-fade-in-up"
                 height="750"
                 src="/logo.png"
                 width="750"
@@ -136,17 +136,17 @@ export function CV() {
             <div className="space-y-20">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Educational Qualification</h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-40">
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Doctor of Philosophy</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">National Institute of Technology, Arunachal Pradesh</p>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">Computer Science & Engineering in 2015</p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Masters of Technology</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">Jadavpur University, West Bengal</p>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">Multimedia Development 2009</p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Bachelor of Technology</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">West Bengal University of Technology, West Bengal</p>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">Information Technology in 2005</p>
@@ -162,57 +162,57 @@ export function CV() {
             <div className="space-y-20">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Research</h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Information Security</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Developing novel algorithms and techniques for secure communication and data protection.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Cryptography</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Exploring advanced cryptographic primitives and their applications in various domains.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Blockchain Technology</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Investigating the use of blockchain technology for secure and decentralized applications.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Deep Learning</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Developing novel deep learning models for various applications, including image processing and
                     natural language processing.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Machine Learning</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Designing efficient and scalable machine learning algorithms for data analysis and decision-making.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Quantum Computing</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Exploring the potential of quantum computing for solving complex problems and enhancing
                     cryptographic techniques.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Image Processing</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Advancing the state-of-the-art in image enhancement, segmentation, and analysis.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Big Data</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Designing scalable and efficient algorithms for processing and analyzing large-scale data.
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Network Traffic Classification</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Developing machine learning-based techniques for identifying and categorizing network traffic.
@@ -487,43 +487,43 @@ export function CV() {
                     Graduate course, National Institute of Technology Arunachal Pradesh
                   </p>
                 </div> */}
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Computer Graphics and Multimedia Theory</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Undergraduate course, National Institute of Technology Arunachal Pradesh
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Formal Language & Automata Theory</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Undergraduate course, National Institute of Technology Arunachal Pradesh
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Object-Oriented Programming</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Undergraduate course, National Institute of Technology Arunachal Pradesh
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Visual Programming & Web Technology</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Undergraduate course, National Institute of Technology Arunachal Pradesh
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Multimedia Technology</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Undergraduate course, National Institute of Technology Arunachal Pradesh
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Internet Technology</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Undergraduate course, National Institute of Technology Arunachal Pradesh
                   </p>
                 </div>
-                <div>
+                <div className="card">
                   <h3 className="text-xl font-bold">Database Management System</h3>
                   <p className="text-gray-500 dark:text-gray-400 mt-1">
                     Undergraduate course, National Institute of Technology Arunachal Pradesh
