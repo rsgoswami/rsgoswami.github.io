@@ -64,7 +64,9 @@ export function CV() {
                 </div>
                 <div className="text-gray-500 dark:text-gray-400 mt-2">
                   <b className="">Research Areas:</b> Information Security, Cryptography, Blockchain Technology, Deep Learning, Machine
-                  Learning, Quantum Computing, Image Processing, Big Data, Network Traffic Classification
+                  Learning, Quantum Computing, Image Processing, Big Data, Network Traffic Classification 
+
+                <a className=" text-blue-500 opacity-35 hover:opacity-100" href="https://www.nitap.ac.in/department/faculty_profile?name=rajat&dept=1dbf504017" target="_"> Website </a>
                 </div>
                 <div className="flex space-x-4 mt-20">
                   
