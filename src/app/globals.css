@@ -219,3 +219,36 @@ tr:nth-child(even) {
   background-color: var(--zebra-color);
 }
 
+.bg-card {
+  background: transparent;
+  backdrop-filter: blur(225px);
+}
+
+
+/* styles.css */
+
+.gdlr-core-accordion-item-content-wrapper {
+  @apply p-4; /* Add padding */
+}
+
+.gdlr-core-accordion-item-title {
+  @apply text-xl font-bold mb-4; /* Add text size, weight, and margin bottom */
+}
+
+.alert.alert-success {
+  @apply bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative; /* Tailwind alert styles */
+}
+
+.btn {
+  @apply text-blue-500 bg-white border border-blue-500 px-4 py-2 rounded mr-2 mb-2; /* Button styles */
+}
+
+.btn-default:hover {
+  @apply bg-blue-500 text-white; /* Button hover styles */
+}
+
+.text-danger {
+  @apply text-red-500; /* Text color for danger */
+}
+
+/* Add more Tailwind classes as needed */

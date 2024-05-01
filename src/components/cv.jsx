@@ -8,16 +8,9 @@ import Nav from "./Nav";
 
 export function CV() {
 
-  let handlemode = () => {
-    if (document.documentElement.classList.contains("dark")) {
-      document.documentElement.classList.remove("dark")
-    } else {
-      document.documentElement.classList.add("dark")
-    }
-  }
+  
   return (
     (<div className="flex flex-col min-h-[100dvh]">
-      <Nav className=" top-0 absolute"/>
       <Header/>
       <main className="flex-1 dark:bg-gradient-to-r dark:from-slate-900 dark:to-zinc-800">
         <HeroSection/>

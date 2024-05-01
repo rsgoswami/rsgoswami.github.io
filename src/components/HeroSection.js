@@ -3,6 +3,13 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function HeroSection() {
+  let handlemode = () => {
+    if (document.documentElement.classList.contains("dark")) {
+      document.documentElement.classList.remove("dark")
+    } else {
+      document.documentElement.classList.add("dark")
+    }
+  }
   return (
     <>
       <section className="w-full py-12 md:py-24 lg:py-32 border-y dark:bg-gradient-to-r dark:from-slate-900 dark:to-zinc-800">

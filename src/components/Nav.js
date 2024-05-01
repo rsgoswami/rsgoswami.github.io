@@ -38,7 +38,7 @@ export default function Nav({props}) {
             <Link
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               data-id={9}
-              href="#"
+              href="/research-details"
               rel="ugc"
             >
               Research Details
@@ -46,7 +46,7 @@ export default function Nav({props}) {
             <Link
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               data-id={10}
-              href="#"
+              href="/publications"
               rel="ugc"
             >
               Publications
@@ -54,7 +54,7 @@ export default function Nav({props}) {
             <Link
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               data-id={11}
-              href="#"
+              href="/conference-paper"
               rel="ugc"
             >
               Conference Paper
@@ -62,7 +62,7 @@ export default function Nav({props}) {
             <Link
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               data-id={12}
-              href="#"
+              href="/books"
               rel="ugc"
             >
               Books/Book Chapter
@@ -70,7 +70,7 @@ export default function Nav({props}) {
             <Link
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               data-id={13}
-              href="#"
+              href="/projects"
               rel="ugc"
             >
               Projects
@@ -86,7 +86,7 @@ export default function Nav({props}) {
             <Link
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               data-id={15}
-              href="#"
+              href="/workshop"
               rel="ugc"
             >
               Workshop/Conference
