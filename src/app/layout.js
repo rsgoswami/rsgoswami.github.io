@@ -3,6 +3,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
+export const runtime = "edge";
 
 export const metadata = {
   title: "Dr. Rajat Subhra Goswami",
