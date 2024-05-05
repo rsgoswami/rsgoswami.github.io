@@ -16,6 +16,7 @@ export default function page() {
         <a href="#2014" className="btn btn-default">2014</a>
         <a href="#2013" className="btn btn-default">2013</a>
       </p></div>    
+      <div className="blog">
     <a name={2022} id={2022} />
     <h4 style={{fontSize: 20, textTransform: 'none'}}><u>2022</u></h4>            
     <p style={{fontSize: 17}}>1. <b>Sujit Biswas, Rajat S Goswami</b> <font color="#006699">"Understanding Quantum Computing Through Drunken Walks"</font>,  Pattern Recognition and Data Analysis with Applications , 2022, vol. , pp. 635-646&nbsp;<a className=" text-danger" href="https://link.springer.com/chapter/10.1007/978-981-19-1520-8_52">(https://link.springer.com/chapter/10.1007/978-981-19-1520-8_52)</a>
@@ -69,6 +70,7 @@ export default function page() {
     </p><p style={{fontSize: 17}}>5. <b>Rajat Subhra Goswami, Swarnendu Kumar Chakraborty, Abhinandan Bhinia3 Chandan T Bhunia</b> <font color="#006699">"Review and Suggestions of Time Variant Key (Automatic Variable Key) Techniques
         "</font>, National Conference on Emerging Trends In Computing-NCETIC, 2013
     </p> 
+    </div>
   </div>
 </div>
 

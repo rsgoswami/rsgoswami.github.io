@@ -244,7 +244,7 @@ tr:nth-child(even) {
 }
 
 .alert.alert-success {
-  @apply  mx-auto  px-4 py-3 rounded sticky top-0 backdrop-blur-lg  border-b-orange-500 hover:border ; /* Tailwind alert styles */
+  @apply  mx-auto  px-4 py-3 rounded sticky top-0 backdrop-blur-lg  border-b-blue-500 hover:border ; /* Tailwind alert styles */
 }
 
 .alert.alert-success p {
@@ -259,7 +259,6 @@ tr:nth-child(even) {
 }
 
 .text-danger {
-  @apply text-red-500; /* Text color for danger */
   color: rgb(173, 123, 220);
 
 }
