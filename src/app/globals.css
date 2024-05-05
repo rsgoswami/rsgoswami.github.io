@@ -235,12 +235,23 @@ tr:nth-child(even) {
   @apply text-xl font-bold mb-4; /* Add text size, weight, and margin bottom */
 }
 
-.alert.alert-success {
-  @apply bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative; /* Tailwind alert styles */
+.blog {
+  @apply max-w-4xl mx-auto space-y-10
 }
 
+.blog p {
+  @apply space-y-10 line-clamp-6 p-2 text-4xl
+}
+
+.alert.alert-success {
+  @apply  mx-auto  px-4 py-3 rounded sticky top-0 backdrop-blur-lg  border-b-orange-500 hover:border ; /* Tailwind alert styles */
+}
+
+.alert.alert-success p {
+  @apply mx-auto flex justify-center gap-4
+}
 .btn {
-  @apply text-blue-500 bg-white border border-blue-500 px-4 py-2 rounded mr-2 mb-2; /* Button styles */
+  @apply text-blue-500  border border-blue-500 px-4 py-2 rounded mr-2 mb-2; /* Button styles */
 }
 
 .btn-default:hover {
@@ -249,6 +260,8 @@ tr:nth-child(even) {
 
 .text-danger {
   @apply text-red-500; /* Text color for danger */
+  color: rgb(173, 123, 220);
+
 }
 
 /* Add more Tailwind classes as needed */
